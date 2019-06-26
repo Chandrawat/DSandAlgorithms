@@ -29,9 +29,7 @@ public class SingleDimensionArray {
 		else {
 			System.out.println("Value is already present");
 		}
-			
 	}
-	
 	public void accessCell(int location) {
 		if(arr[location] == Integer.MIN_VALUE) {
 			System.out.println("The value is blank");
@@ -59,16 +57,10 @@ public class SingleDimensionArray {
 			}
 		}
 		System.out.println("The value is not present in array");
-		
-		
 	}
 	
 	public void deleteArray() {
 		arr = null ;
 		System.out.println("The array is deleted!");
 	}
-	
-	
-	
-	
 }
