@@ -18,6 +18,7 @@ class Outer{
 public class InnerClassPractise {
 
 	public static void main(String[] args) {
+		//nkn
 		
 		Outer outer = new Outer();
 		outer.show();
