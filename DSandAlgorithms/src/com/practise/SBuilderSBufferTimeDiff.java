@@ -20,7 +20,7 @@ public class SBuilderSBufferTimeDiff {
 		System.out.println("Buffer "+netTime2);
 		
 	
-		StringBuilder sbuilder = new StringBuilder();
+		StringBuilder sbuilder = new StringBuilder(); 	// added time
 		
 		long startTime1 = System.currentTimeMillis();
 		

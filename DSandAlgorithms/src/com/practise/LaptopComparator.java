@@ -1,5 +1,7 @@
 package com.practise;
 
+
+
 public class LaptopComparator {
 	
 	private String maker;
