@@ -1,4 +1,4 @@
-package com.array;
+package com.practise;
 
 public class GoodMorningGreeting implements GreetingInterface {
 

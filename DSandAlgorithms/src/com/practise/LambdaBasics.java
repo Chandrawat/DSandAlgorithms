@@ -1,8 +1,5 @@
 package com.practise;
 
-import com.array.GoodMorningGreeting;
-import com.array.GreetingInterface;
-
 public class LambdaBasics {
 
 	public void greet(GreetingInterface greeting) {
