@@ -28,6 +28,8 @@ public class AnonymousClassLambda {
 		
 		/*
 		 * Lambda Expression only works with Functional Interface
+		 * It is similar to function but no return type as compiler will check from the return type and no access modifier as it 
+		 * will be same for the variable it will be stored in
 		 */
 		DisplayName dn = () ->
 				System.out.println("My name is Saksham Chandrawat");
