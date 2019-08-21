@@ -22,7 +22,7 @@ public class ComparatorImp {
 			@Override
 			public int compare(Integer o1, Integer o2) {
 				
-				return o1%10>02%10?1:-1;	//ternary operator
+				return o1%10>o2%10?1:-1;	//ternary operator
 				//result = testCondition ? trueValue : falseValue
 				
 				/*
@@ -31,12 +31,23 @@ public class ComparatorImp {
 			}
 		};
 		
+		
+		// With Lamda Expression
+		
+		Comparator<Integer> c2 = (o1, o2) ->  o1%10>o2%10?1:-1 ;	
+		
+		
+		
 		Collections.sort(values, c);
+		
+	//	Collections.sort(values, c2);
 		
 		
 		for(Object o: values) {
 			System.out.println(o);
 		}
+		
+
 
 		
 		
