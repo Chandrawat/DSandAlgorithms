@@ -46,14 +46,6 @@ public class ComparatorImp {
 		for(Object o: values) {
 			System.out.println(o);
 		}
-		
-
-
-		
-		
-		
-		
-
 	}
 
 }
