@@ -38,9 +38,9 @@ public class ComparatorImp {
 		
 		
 		
-		Collections.sort(values, c);
+	//	Collections.sort(values, c);
 		
-	//	Collections.sort(values, c2);
+		Collections.sort(values, c2);
 		
 		
 		for(Object o: values) {
