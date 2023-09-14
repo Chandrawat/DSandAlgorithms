@@ -5,7 +5,7 @@ public class Practise {
 	public static void main(String[] args) {
 		
 
-		System.out.println("Hello, Saksham!");
+		System.out.println("Hello, !");
 
 	}
 
