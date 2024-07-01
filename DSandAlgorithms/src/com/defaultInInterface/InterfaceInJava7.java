@@ -1,4 +1,4 @@
-package com.InterfaceEnchanment;
+package com.defaultInInterface;
 
 public interface InterfaceInJava7 {
 
